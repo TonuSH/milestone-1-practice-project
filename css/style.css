@@ -1,168 +1,233 @@
-.work-sans{
+.work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background-image: url(../images/banner/banner1.png);
-    height:808px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+header {
+  background-image: url(../images/banner/banner1.png);
+  height: 808px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.hero-container{
-    width:85%;
-    max-width: 1145px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.hero-container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.hero-container .hero-content{
-    text-align: right;
-    max-width: 525px;
-    padding-top: 216px;
+.hero-container .hero-content {
+  text-align: right;
+  max-width: 525px;
+  padding-top: 216px;
 }
-.hero-container .hero-content h2{
-    font-size: 65px;
-    font-weight: 700;
-    text-align: right;
-    color:#151414;
-    margin-bottom: 24px;
+.hero-container .hero-content h2 {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: right;
+  color: #151414;
+  margin-bottom: 24px;
 }
-.hero-container .hero-content p{
-    font-size: 16px;
-    font-weight: 400;
-    color:#444343;
-    margin-bottom: 32px;
-    line-height: 26px;
+.hero-container .hero-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  margin-bottom: 32px;
+  line-height: 26px;
 }
-.hero-container .hero-content a{
-    text-decoration: none;
+.hero-container .hero-content a {
+  text-decoration: none;
 }
-.hero-container .hero-content button{
-    padding: 21px 26px;
-    border-radius: 5px;
-    background-color: #F15B22;
-    border:none;
-    color:#FFFFFF;
-    font-size: 20px;
-    font-weight: 600px;
+.hero-container .hero-content button {
+  padding: 21px 26px;
+  border-radius: 5px;
+  background-color: #f15b22;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600px;
 }
 #problem,
 #plan,
-#gradient{
-    padding-top: 130px;
+#gradient {
+  padding-top: 130px;
 }
-#problem .problem-container{
-    width:85%;
-    max-width: 1145px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:87px;
+#problem .problem-container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
 }
-#problem .problem-container .problem-content h2{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: left;
-    margin-bottom: 24px;
-    color:#151414;
+#problem .problem-container .problem-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 24px;
+  color: #151414;
 }
-#problem .problem-container .problem-content p{
-    font-size: 16px;
-    font-weight: 400;
-    color:#444343;
-    margin-bottom: 16px;
-    line-height: 26px;
+#problem .problem-container .problem-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  margin-bottom: 16px;
+  line-height: 26px;
 }
-#problem .problem-container .problem-content ul{
-    list-style-type: none;
+#problem .problem-container .problem-content ul {
+  list-style-type: none;
 }
-#problem .problem-container .problem-content li{
-    font-size: 16px;
-    font-weight: 400;
-    color:#444343;
-    margin-bottom: 8px;
-    line-height: 26px;
+#problem .problem-container .problem-content li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  margin-bottom: 8px;
+  line-height: 26px;
 }
 
-#plan h2{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 57px;
+#plan h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 57px;
 }
-#plan .plan-container{
-    width:85%;
-    max-width: 1145px;
-    margin: 0 auto;
+#plan .plan-container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
 }
-#plan .plan-container .plan-card{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 85px;
+#plan .plan-container .plan-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 85px;
 }
-#plan .plan-container .plan-card .plan-box img{
-    width:93px;
-    height:93px;
-    display: block;
-    margin:0 auto;
+#plan .plan-container .plan-card .plan-box img {
+  width: 93px;
+  height: 93px;
+  display: block;
+  margin: 0 auto;
 }
-#plan .plan-container .plan-card .plan-box h3{
-    font-size: 30px;
-    font-weight: 700;
-    color:#151414;
-    margin: 24px 0 16px;
-    text-align: center;
+#plan .plan-container .plan-card .plan-box h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151414;
+  margin: 24px 0 16px;
+  text-align: center;
 }
-#plan .plan-container .plan-card .plan-box p{
-    font-size: 25px;
-    font-weight: 500;
-    color:#737272;
-    text-align: center;
+#plan .plan-container .plan-card .plan-box p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+  text-align: center;
 }
-#gradient .gradient-container{
-    width:85%;
-    max-width: 1145px;
-    margin: 0 auto;
+#gradient .gradient-container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
 }
-#gradient .gradient-container{
-    background-image:url(../images/gradient2.png),
-     url(../images/watch.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:300px;
-    margin-bottom: 130px;
-    border-radius: 8px;
-    display: flex;
-    /* justify-content: flex-start; */
-    align-items: center;
+#gradient .gradient-container {
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-bottom: 130px;
+  border-radius: 8px;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
 }
-#gradient .gradient-container .grad-content{
-    margin:64px;
+#gradient .gradient-container .grad-content {
+  margin: 64px;
 }
-#gradient .gradient-container .grad-content h2{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: left;
-    color:#FFFFFF;
-    margin-bottom: 24px;
+#gradient .gradient-container .grad-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
 }
-#gradient .gradient-container .grad-content a button{
-    padding:20px 36px;
-    border:none;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    color:#F15B22;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
+#gradient .gradient-container .grad-content a button {
+  padding: 20px 36px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer {
+  background-color: #151414;
+  padding: 130px 0;
+}
+
+footer .footer-container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .footer-container .future {
+  width: 485px;
+}
+footer .footer-container .future h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #f8f8f8;
+}
+footer .footer-container .future p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 0 24px;
+  color: #ffffff;
+}
+footer .footer-container .future .footer-icon {
+  display: flex;
+  gap: 17px;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 325px;
+}
+footer .footer-container .subscribe h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+footer .footer-container .subscribe input {
+  border-radius: 8px;
+  padding: 22px;
+  width: 325px;
+  background-color: #151414;
+  border: 1px solid #ffffff;
+}
+footer .footer-container .subscribe input::placeholder {
+  color: #a2a1a1;
+  font-size: 18px;
+}
+footer .footer-container .subscribe .footer-btn {
+  padding: 20px 36.02px;
+  background-color: #ffffff;
+  border: none;
+  color: #f15b22;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
 }
