@@ -54,7 +54,8 @@ header{
     font-size: 20px;
     font-weight: 600px;
 }
-#problem{
+#problem,
+#plan{
     padding-top: 130px;
 }
 #problem .problem-container{
@@ -89,4 +90,41 @@ header{
     color:#444343;
     margin-bottom: 8px;
     line-height: 26px;
+}
+
+#plan h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 57px;
+}
+#plan .plan-container{
+    width:85%;
+    max-width: 1145px;
+    margin: 0 auto;
+}
+#plan .plan-container .plan-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+}
+#plan .plan-container .plan-card .plan-box img{
+    width:93px;
+    height:93px;
+    display: block;
+    margin:0 auto;
+}
+#plan .plan-container .plan-card .plan-box h3{
+    font-size: 30px;
+    font-weight: 700;
+    color:#151414;
+    margin: 24px 0 16px;
+    text-align: center;
+}
+#plan .plan-container .plan-card .plan-box p{
+    font-size: 25px;
+    font-weight: 500;
+    color:#737272;
+    text-align: center;
 }
