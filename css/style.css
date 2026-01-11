@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-header {
+header{
     background-image: url(../images/banner/banner1.png);
     height:808px;
     background-size: cover;
@@ -53,4 +53,40 @@ header {
     color:#FFFFFF;
     font-size: 20px;
     font-weight: 600px;
+}
+#problem{
+    padding-top: 130px;
+}
+#problem .problem-container{
+    width:85%;
+    max-width: 1145px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:87px;
+}
+#problem .problem-container .problem-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+    color:#151414;
+}
+#problem .problem-container .problem-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+#problem .problem-container .problem-content ul{
+    list-style-type: none;
+}
+#problem .problem-container .problem-content li{
+    font-size: 16px;
+    font-weight: 400;
+    color:#444343;
+    margin-bottom: 8px;
+    line-height: 26px;
 }
